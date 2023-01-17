@@ -21,49 +21,52 @@ export default {
             description: 'About Me.',
             usage: 'about',
             fn: () => {
-                return "About Me.\n---\nmale\n18\nstudent\nsolodev\nmelophile\nweeb\ndumb\napathetic\n---\n"
+                return "About Me.\n---\nSan.D\nFrom Calcutta\nFull Stack Dev\n---\n"
             }
         },
-        twitter: {
-            description: 'Opens my Twitter Handle.',
-            usage: 'twitter',
-            fn: () => {
-                window.open('https://twitter.com/_asheeshh', '_blank')
-                return "opening twitter handle..."
-            }
-        },
+        // twitter: {
+        //     description: 'Opens my Twitter Handle.',
+        //     usage: 'twitter',
+        //     fn: () => {
+        //         window.open('https://twitter.com/_asheeshh', '_blank')
+        //         return "opening twitter handle..."
+        //     }
+        // },
         github: {
             description: 'Opens my GitHub Profile.',
-            usage: 'twitter',
+            usage: 'github',
             fn: () => {
-                window.open('https://github.com/asheeeshh', '_blank')
+                window.open('https://github.com/SANKARAMDAS', '_blank')
                 return "opening github account..."
             }
         },
-        discord: {
-            description: 'Opens my Discord Account.',
-            usage: 'twitter',
-            fn: () => {
-                window.open('https://discordapp.com/users/784363251940458516', '_blank')
-                return "opening discord account..."
-            }
-        },
+        // discord: {
+        //     description: 'Opens my Discord Account.',
+        //     usage: 'discord',
+        //     fn: () => {
+        //         window.open('https://discordapp.com/users/784363251940458516', '_blank')
+        //         return "opening discord account..."
+        //     }
+        // },
         languages: {
             description: 'Languages I know.',
             usage: 'languages',
             fn: () => {
                 return `
                     these are the languages I know.\n---\n
-                    english          - 70%
+                    english          - 100%
                     hindi            - 100%
+                    bengali            - 100%
                     gen-z-langauge   - 00%
-                    python           - 60%
-                    javascript       - 40%
+                    flutter           - 60%
+                    javascript       - 60%
+                    Bootstrap       - 60%
                     html5            - 90%
                     css3             - 80%
-                    ruby             - 40%
-                    rust             - 10% - [learning]
-                    go-lang          - 10% - [learning]\n---\n
+                    react             - 60%
+                    next             - 10%[Started learning]
+                    web 3.0(solidity,Polygon)   - 10% - [learning]
+                    Spring Boot      - 10% - [learning]\n---\n
                 `
             }
         },
@@ -77,7 +80,7 @@ export default {
                     coding           - 50%
                     studying         - 10%
                     overthinking     - 100%
-                    social-skills    - 00%
+                    social-skills    - 50%
                     making-playlists - 100%\n---\n
                 `
             }
@@ -88,10 +91,15 @@ export default {
             fn: () => {
                 return `
                     Cool projects I have worked on.\n---\n
-                    'kanna-chan'                      | 'Discord-Bot'         | 'python'
-                    'wordinal'                        | 'wordle-on-terminal'  | 'javascript'
-                    'weeby.py'                        | 'API-wrapper'         | 'python'
-                    'github-readme-banner-generator'  | 'banner-generator'    | 'javascript'\n---\n
+                    'gsearch'                      | 'Search engine base on google-api'         | 'react'
+                    'opensea-blockchain-clone'     | 'Opensea-blockchain-clone website'  | 'react-solidity-hardhat'
+                    'NFT-digital-marketplace'      | 'NFT website'         | 'react-solidity-hardhat'
+                    'AI-Radio'                     | 'AI-Radio-Allen API'         | 'flutter'
+                    'covid19-tracker'              | 'Covid19-tracker-app(India as well as world)'         | 'flutter'
+                    'bmi_calculator'                  | 'Bmi_calculator'         | 'flutter'
+                    'Realtime-Weather-App-on-ReactJs' | 'Realtime-Weather-App-on-ReactJs'         | 'react'
+                    'freeChat2_app'                   | 'Chat App'         | 'flutter'
+                    'flutter_weather_app '  | 'Weather app'    | 'Flutter'\n---\n
                 `
             }
         },
@@ -100,9 +108,9 @@ export default {
             usage: 'editor',
             fn: () => {
                 return `
-                    Editor: Visual Studio Code\n
-                    Theme : Dracula\n
-                    Font  : MonoLisa
+                    Editor: Intellij Idea, Atom, Visual Studio Code\n
+                    Tool  : Postman, MongoDB, STS\n
+                   
                 `
             }
         },
@@ -110,23 +118,23 @@ export default {
             description: "Opens this website's github repository.",
             usage: 'repo',
             fn: () => {
-                window.open("https://github.com/asheeeshh/AshTerm", '_blank')
+                window.open("https://github.com/SANKARAMDAS", '_blank')
                 return "opening repository..."
             }
         },
-        spotify: {
-            description: 'Get info about my recently played song.',
-            usage: 'spotify',
-            fn: async () => {
-                const item = await getnp()
-                return `
-                    Now Playing/Recently Played\n
-                    ---\n
-                    Song: ${item.song}\n
-                    Artist: ${item.artist}\n---\n
-                `
-            }
-        }
+        // spotify: {
+        //     description: 'Get info about my recently played song.',
+        //     usage: 'spotify',
+        //     fn: async () => {
+        //         const item = await getnp()
+        //         return `
+        //             Now Playing/Recently Played\n
+        //             ---\n
+        //             Song: ${item.song}\n
+        //             Artist: ${item.artist}\n---\n
+        //         `
+        //     }
+        // }
     },
     overwrites:{
         help: {
