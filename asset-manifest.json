@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gen_pf_sand_1/static/css/main.fc316bb6.css",
+    "main.js": "/gen_pf_sand_1/static/js/main.9ffe7c34.js",
+    "static/media/base.png": "/gen_pf_sand_1/static/media/base.f09174bc1a13c37f7ee1.png",
+    "index.html": "/gen_pf_sand_1/index.html",
+    "main.fc316bb6.css.map": "/gen_pf_sand_1/static/css/main.fc316bb6.css.map",
+    "main.9ffe7c34.js.map": "/gen_pf_sand_1/static/js/main.9ffe7c34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc316bb6.css",
+    "static/js/main.9ffe7c34.js"
+  ]
+}
